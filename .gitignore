@@ -1,0 +1,23 @@
+# Ignore all target folders in each project
+**/target/
+
+# Ignore all build output folders
+**/build/
+
+# Ignore IDE specific files and folders
+.vscode/
+.idea/
+
+# Ignore application configuration files (e.g., application.properties, application.yml)
+**/src/main/resources/application.properties
+**/src/main/resources/application.yml
+
+# Ignore log files
+**/logs/
+
+# Ignore generated files
+**/generated/
+
+# Ignore temporary files
+*.log
+*.tmp
